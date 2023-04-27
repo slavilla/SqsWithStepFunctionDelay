@@ -1,0 +1,5 @@
+server:
+  ssl:
+    enabled: true
+    key-store: /root/.keystore
+    key-store-password: w@lcom@
