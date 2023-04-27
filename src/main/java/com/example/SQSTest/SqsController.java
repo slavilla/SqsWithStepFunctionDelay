@@ -22,8 +22,8 @@ public class SqsController
 {
     private final AmazonSQS sqs = AmazonSQSClientBuilder.standard()
             .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(
-                    "AKIATJEGH2EAM2IPZBE2",
-                    "ExBpOMHuwdPGfL3UZ61WlKRNliGhmT54vxCqr5YM"
+                    "",
+                    ""
             )))
             .withRegion(Regions.US_EAST_1)
             .build();
